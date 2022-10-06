@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  align-items: center;
+  width: 35rem;
+  height: 50rem;
+  background-color: #060606;
+  box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
+  border-radius: 5px;
+  animation: box-shadow 1s alternate infinite;
+}
+.card .photo {
+  border: none;
+  margin: 1.5rem 0;
+  box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
+  border-radius: 5px;
+}
+
+.card .photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.card p {
+  margin-top: 2rem;
+  color: #5fcdd9;
+  font-family: Roboto Mono;
+  font-size: 0.8rem;
+}
+
+.blur {
+  background: url("../public/Adidas (1).svg") no-repeat center,
+    url("../public/Adidas.svg") no-repeat center, url("../public/BG.png") no-repeat center;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+  height: 3.5rem;
+  background-color: #5fcdd9;
+  border-radius: 5px;
+  border: none;
+  box-shadow: ;
+  font-family: Roboto Mono, "Helvetica";
+  box-shadow: 2px 5px 11px 1px rgba(95, 205, 217, 0.55);
+  margin: 2.5rem;
+  transition: all 0.2s;
+  cursor: pointer;
+  padding: 0 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: #172026;
+  box-shadow: 1px 3px 1px #5fcdd9;
+}
+a:hover {
+  color: #fff;
+}
+
+a span {
+  font-size: 2rem;
+}
+
+@keyframes box-shadow {
+  from {
+    box-shadow: 1px 1px 6px 2px #5fcdd9;
+  }
+  to {
+    box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
+  }
+}
