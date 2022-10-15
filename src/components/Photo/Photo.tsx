@@ -2,7 +2,7 @@ import "../Photo/Photo.css";
 const Photo = () => {
   return (
     <div className="photo">
-      <img src="../../../public/fotodeperfil.png" alt="" />
+      <img src="../public/fotodeperfil.png" />
     </div>
   );
 };
