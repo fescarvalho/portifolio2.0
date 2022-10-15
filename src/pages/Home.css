@@ -36,8 +36,9 @@
 }
 
 .blur {
-  background: url("../public/Adidas (1).svg") no-repeat center,
-    url("../public/Adidas.svg") no-repeat center, url("../public/BG.png") no-repeat center;
+  background: url("../../public/Adidas (1).svg") no-repeat center,
+    url("../../public/Adidas.svg") no-repeat center,
+    url("../../public/BG.png") no-repeat center;
   width: auto;
   height: 100vh;
   display: flex;
