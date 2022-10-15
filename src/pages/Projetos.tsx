@@ -69,12 +69,12 @@ const Projetos = () => {
               background="https://i.picasion.com/pic92/bdf552fb712e616045ee676c6556398b.gif"
             />
             <Project
-              title="Name"
-              tecnologiasBack={["name1", "name2", "name3", "name4", "name5"]}
-              tecnologiasFront={["name1", "name2", "name3", "name4", "name5"]}
-              linkGithub="https://github.com/fescarvalho"
-              linkLinkedin="https://www.linkedin.com/in/fecarvalhodev/"
-              background="../../public/back.jpg"
+              title="App Estacionamento"
+              tecnologiasBack={["Not Backend"]}
+              tecnologiasFront={["React", "CSS Modules", "Axios"]}
+              linkGithub="https://github.com/fescarvalho/app_estacionamento"
+              linkLinkedin="https://app-estacionamento.vercel.app/historico"
+              background="https://i.picasion.com/pic92/827ac503b7a22b258229e241f2ac5c46.gif"
             />
             <Project
               title="Name"
