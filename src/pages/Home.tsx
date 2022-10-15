@@ -9,7 +9,7 @@ const Home = () => {
       <div className="blur">
         <div className="card">
           <div className="photo">
-            <img src="../../../public/fotodeperfil.png" />
+            <img src="../../public/fotodeperfil.png" />
           </div>
 
           <div className="buttons">
