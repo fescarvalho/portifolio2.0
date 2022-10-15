@@ -1,5 +1,7 @@
 import "./Project.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+import { FaGithub, FaFileCode } from "react-icons/fa";
+import { motion } from "framer-motion";
 interface PropsProject {
   title: string;
   tecnologiasFront: string[];
@@ -11,7 +13,10 @@ interface PropsProject {
 
 const Project = (props: PropsProject) => {
   return (
-    <div className="project" style={{ backgroundImage: `url(${props.background})` }}>
+    <motion.div
+      className="project"
+      style={{ backgroundImage: `url(${props.background})` }}
+    >
       <div className="projectBlur">
         <h2>{props.title}</h2>
         <div className="project-info">
@@ -38,17 +43,17 @@ const Project = (props: PropsProject) => {
           <div className="links">
             <h3>Links</h3>
             <div className="url">
-              <a href={props.linkGithub}>
+              <a href={props.linkGithub} target="_blank">
                 <FaGithub />
               </a>
-              <a href={props.linkLinkedin}>
-                <FaLinkedin />
+              <a href={props.linkLinkedin} target="_blank">
+                <FaFileCode />
               </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

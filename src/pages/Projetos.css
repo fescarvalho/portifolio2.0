@@ -1,7 +1,15 @@
-.projects {
+.main {
+  background: url("../public/BG.png") no-repeat center;
   width: 100vw;
   height: 100vh;
-  background: url("../public/BG.png") no-repeat center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects {
+  max-width: 90%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +20,8 @@
   display: block;
   width: 90%;
   max-height: 500px;
-
+  cursor: grab;
   display: flex;
   gap: 40px;
+  overflow: h;
 }

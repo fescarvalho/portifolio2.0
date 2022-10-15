@@ -14,14 +14,15 @@
 }
 
 .projectBlur {
-  background: rgba(6, 6, 6, 0.7);
+  background: rgba(6, 6, 6, 0.8);
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .project h2 {
   font-family: Poppins;
   font-size: 2rem;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .project-info h3 {
@@ -46,7 +47,8 @@
 
 .project-info .tecnologias ul {
   list-style: none;
-  margin-bottom: 2rem;
+  margin-bottom: 12px;
+  height: 8rem;
 }
 
 .project-info .tecnologias ul li {

@@ -1,5 +1,5 @@
 import "./Home.css";
-import { Link } from "react-router-dom";
+
 import Button from "../components/Button/Button";
 import { FaUserAstronaut, FaFileCode, FaGithub, FaLinkedin } from "react-icons/fa";
 
