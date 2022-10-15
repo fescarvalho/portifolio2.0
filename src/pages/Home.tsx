@@ -16,13 +16,17 @@ const Home = () => {
             <Button path="/sobre" name={"Sobre Mim"} icon={<FaUserAstronaut />}></Button>
 
             <Button path="/projetos" name={"Projetos"} icon={<FaFileCode />} />
-            <a href="https://www.linkedin.com/in/fecarvalhodev/" target="_blank">
+            <a
+              id="link-home"
+              href="https://www.linkedin.com/in/fecarvalhodev/"
+              target="_blank"
+            >
               Linkedin
               <span>
                 <FaLinkedin />
               </span>
             </a>
-            <a href="https://github.com/fescarvalho" target="_blank">
+            <a id="link-home" href="https://github.com/fescarvalho" target="_blank">
               Github
               <span>
                 <FaGithub />

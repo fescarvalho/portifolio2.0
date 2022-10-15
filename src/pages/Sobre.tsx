@@ -1,7 +1,11 @@
-import React from "react";
+import Header from "../components/Header/Header";
 
 const Sobre = () => {
-  return <div>Sobre</div>;
+  return (
+    <div>
+      <Header title="Sobre Mim" />
+    </div>
+  );
 };
 
 export default Sobre;

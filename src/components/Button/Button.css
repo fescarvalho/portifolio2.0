@@ -13,15 +13,13 @@
   margin: 2.5rem;
   transition: all 0.2s;
   cursor: pointer;
-  padding: 0 2rem; 
-   text-decoration: none;
+  padding: 0 2rem;
+  text-decoration: none;
   text-transform: uppercase;
   color: #000;
   font-size: 1.5rem;
   font-weight: 600;
-
 }
-
 
 .button:hover {
   background-color: #172026;
@@ -35,6 +33,3 @@
 .button span {
   font-size: 2rem;
 }
-
-.button a {
-

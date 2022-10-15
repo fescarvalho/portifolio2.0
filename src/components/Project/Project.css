@@ -1,0 +1,79 @@
+.project {
+  max-width: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #e0e4e7;
+  box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
+}
+
+.projectBlur {
+  background: rgba(6, 6, 6, 0.7);
+  overflow: hidden;
+}
+
+.project h2 {
+  font-family: Poppins;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.project-info h3 {
+  font-family: Roboto Mono;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #5fcdd9;
+}
+
+.project-info .tecnologias {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-info .tecnologias p {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.project-info .tecnologias ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.project-info .tecnologias ul li {
+  font-family: Poppins;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.project-info .links h3 {
+  margin: 0;
+}
+
+.project-info .links {
+  padding-bottom: 2rem;
+}
+.project-info .links .url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-info .links .url a {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+  background: none;
+  box-shadow: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}

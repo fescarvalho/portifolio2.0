@@ -1,0 +1,28 @@
+.header {
+  width: 100vw;
+  height: 4rem;
+  background-color: #060606;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  color: #5fcdd9;
+  font-family: Poppins;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 2.5rem;
+}
+
+.link {
+  width: 8rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}

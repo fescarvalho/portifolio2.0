@@ -1,0 +1,18 @@
+.projects {
+  width: 100vw;
+  height: 100vh;
+  background: url("../public/BG.png") no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.projects-main {
+  display: block;
+  width: 90%;
+  max-height: 500px;
+
+  display: flex;
+  gap: 40px;
+}
