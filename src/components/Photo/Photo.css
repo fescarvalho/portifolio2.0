@@ -1,0 +1,10 @@
+.photo {
+  border: none;
+  margin: 1.5rem 0;
+  box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
+  border-radius: 5px;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+}

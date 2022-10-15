@@ -2,15 +2,14 @@ import "./Home.css";
 
 import Button from "../components/Button/Button";
 import { FaUserAstronaut, FaFileCode, FaGithub, FaLinkedin } from "react-icons/fa";
+import Photo from "../components/Photo/Photo";
 
 const Home = () => {
   return (
     <>
       <div className="blur">
         <div className="card">
-          <div className="photo">
-            <img src="../../public/fotodeperfil.png" />
-          </div>
+          <Photo />
 
           <div className="buttons">
             <Button path="/sobre" name={"Sobre Mim"} icon={<FaUserAstronaut />}></Button>
