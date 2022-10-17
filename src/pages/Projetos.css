@@ -1,6 +1,5 @@
 .main {
   background: url("../../public/BG.png") no-repeat center;
-  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
