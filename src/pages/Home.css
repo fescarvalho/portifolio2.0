@@ -7,7 +7,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  padding: 0.8rem;
+  justify-content: space-around;
   align-items: center;
   width: 35rem;
   height: 50rem;
@@ -28,7 +28,7 @@
   background: url("../../public/Adidas (1).svg") no-repeat center,
     url("../../public/Adidas.svg") no-repeat center,
     url("../../public/BG.png") no-repeat center;
-  width: auto;
+  margin: 0 auto;
   height: 100vh;
   display: flex;
   justify-content: center;
