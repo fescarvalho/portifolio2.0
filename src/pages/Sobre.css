@@ -1,6 +1,7 @@
 .sobre {
   background: url("../../public/BG.png") no-repeat center;
   overflow: hidden;
+  height: 100vh;
 }
 .content {
   display: flex;
@@ -9,7 +10,7 @@
 
 .content .text {
   width: 50rem;
-  height: 100%;
+  height: 40rem;
   background: rgb(95, 205, 240, 10%);
   border: 1px solid #5fcdd9;
   border-radius: 5px;
@@ -74,7 +75,7 @@
 @media (max-width: 600px) {
   .content .text {
     width: 30rem;
-    height: 100%;
+    height: 40rem;
     background: rgb(95, 205, 240, 10%);
     border: 1px solid #5fcdd9;
     border-radius: 5px;
@@ -122,6 +123,7 @@
 @media (max-width: 500px) {
   .content .text {
     width: 30rem;
+    height: 40rem;
     margin: 1rem;
     padding: 1rem;
   }
@@ -138,7 +140,7 @@
 @media (max-width: 400px) {
   .content .text {
     width: 25rem;
-    height: 100%;
+    height: 40rem;
 
     margin: 1rem;
 
