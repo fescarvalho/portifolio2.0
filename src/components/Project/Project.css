@@ -7,6 +7,7 @@
   border-radius: 5px;
   border: none;
   display: flex;
+
   flex-direction: column;
   text-align: center;
   color: #e0e4e7;
@@ -14,9 +15,12 @@
 }
 
 .projectBlur {
+  height: 100%;
   background: rgba(6, 6, 6, 0.9);
   overflow: hidden;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project h2 {
@@ -91,5 +95,10 @@
   .project {
     max-width: 300px;
     padding: 10px;
+  }
+
+  .project h2 {
+    font-size: 1.5rem;
+    padding: 1.5rem;
   }
 }
