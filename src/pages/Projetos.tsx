@@ -16,7 +16,7 @@ const Projetos = () => {
 
   return (
     <>
-      <Header title="Projetos" />
+      <Header title="Projetos" nameOne="Home" nameTwo="Sobre" toOne="/" toTwo="/sobre" />
       <div className="main">
         <motion.div className="projects" ref={carrousel}>
           <motion.div
