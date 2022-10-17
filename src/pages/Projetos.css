@@ -17,11 +17,26 @@
 }
 
 .projects-main {
-  display: block;
   width: 90%;
   max-height: 500px;
   cursor: grab;
   display: flex;
   gap: 40px;
-  overflow: h;
+}
+
+/* --------MEDIA------------- */
+@media (max-width: 600px) {
+  .projects {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 4500px) {
+  .projects {
+    margin-bottom: 100px;
+  }
+  .projects {
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+  }
 }

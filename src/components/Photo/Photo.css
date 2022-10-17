@@ -1,16 +1,31 @@
 .photo {
   display: flex;
+  width: 15rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: none;
   margin: 1.5rem 0;
-  box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
-  border-radius: 5px;
+  /*  box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.6); */
+  border-radius: 50%;
+  animation: photo-shadown 1s infinite alternate;
 }
+
 .photo img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
+}
+
+@keyframes photo-shadown {
+  from {
+    /*  box-shadow: 1px 1px 6px 2px #5fcdd9; */
+    box-shadow: 2px 1px 6px #d362ba;
+  }
+  to {
+    /* box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55); */
+    box-shadow: 2px 1px 6px #1642c3;
+  }
 }
 
 @media (max-width: 600px) {
