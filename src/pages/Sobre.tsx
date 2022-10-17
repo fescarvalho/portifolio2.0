@@ -1,6 +1,7 @@
 import { FaArrowDown } from "react-icons/fa";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
+import Document from "../assets/dowloads/Currículo(Dev) - Fernando da Silva Carvalho (1).pdf";
 import "./Sobre.css";
 
 const Sobre = () => {
@@ -18,11 +19,7 @@ const Sobre = () => {
         <div className="content">
           <div className="text">
             <div className="curriculo">
-              <a
-                href="../../public/dowloads/Currículo(Dev)-FernandodaSilvaCarvalho.pdf"
-                download="Fernando Carvalho.pdf"
-                type="application/pdf"
-              >
+              <a href={Document} download={Document} type="application/pdf">
                 <FaArrowDown className="iconDown" /> Currículo
               </a>
             </div>
