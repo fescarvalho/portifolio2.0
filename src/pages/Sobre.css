@@ -55,10 +55,10 @@
 }
 
 .iconDown {
-  animation: circle 0.8s ease-in-out infinite alternate;
+  animation: arrow 0.8s ease-in-out infinite alternate;
 }
 
-@keyframes circle {
+@keyframes arrow {
   from {
     opacity: 1;
     transform: scale(1) translateY(-5px);
