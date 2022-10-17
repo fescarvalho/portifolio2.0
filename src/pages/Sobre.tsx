@@ -19,7 +19,7 @@ const Sobre = () => {
           <div className="text">
             <div className="curriculo">
               <a
-                href="../../../public/Currículo(Dev) - Fernando da Silva Carvalho (1).pdf"
+                href="./assets/Currículo(Dev) - Fernando da Silva Carvalho (1).pdf"
                 download
               >
                 <FaArrowDown className="iconDown" /> Currículo
