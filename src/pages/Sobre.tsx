@@ -18,17 +18,34 @@ const Sobre = () => {
 
         <div className="content">
           <div className="text">
+            <h2 className="typing-animation">Ola, seja muito bem vindo!!</h2>
             <div className="curriculo">
-              <a href={Document} download={Document} type="application/pdf">
+              <a href={Document} download="FernandoCarvalho.pdf" type="application/pdf">
                 <FaArrowDown className="iconDown" /> Currículo
               </a>
             </div>
-            <p>
-              Ola, sou um aficionado por tecnologia, buscando uma transição de carreira
-              para área. Possuo sólidos conhecimentos em tecnologias, voltadas para o
-              desenvolvimento web, como Javascript, ReactJs, Typescript e NodeJs. Sempre
-              em contínuo aprendizado e atualização.
-            </p>
+
+            <ul>
+              <li>
+                Me chamo Fernando, sou tecnólogo em Analise e Desenvolvimento de Sistemas
+                desde 2019 e Pós-Graduado em Business intelligence, big data e analytics
+                (Ciência de Dados). Me chamo Fernando, sou tecnólogo em Analise e
+                Desenvolvimento de Sistemas desde 2019 e Pós-Graduado em Business
+                intelligence, big data e analytics (Ciência de Dados).
+              </li>
+
+              <li>
+                Sou apaixonado por tecnologia, possuo sólidos conhecimentos em
+                tecnologias, voltadas para o desenvolvimento web FrontEnd, como
+                Javascript, ReactJs, Typescript. Estou sempre em contínuo aprendizado e
+                atualização.
+              </li>
+              <li>
+                Atualmente, trabalho com vendas e comércio, e busco uma transição de
+                carreira para minha área de formação.
+              </li>
+              <li>Estou disponível para novas oportunidades e desafios!</li>
+            </ul>
           </div>
         </div>
       </div>
