@@ -19,8 +19,9 @@ const Sobre = () => {
           <div className="text">
             <div className="curriculo">
               <a
-                href="./assets/Currículo(Dev) - Fernando da Silva Carvalho (1).pdf"
-                download
+                href="../../dowloads/Currículo(Dev)-FernandodaSilvaCarvalho.pdf"
+                download="Fernando Carvalho.pdf"
+                type="application/pdf"
               >
                 <FaArrowDown className="iconDown" /> Currículo
               </a>
