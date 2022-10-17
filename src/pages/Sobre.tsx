@@ -19,7 +19,7 @@ const Sobre = () => {
           <div className="text">
             <div className="curriculo">
               <a
-                href="../../dowloads/Currículo(Dev)-FernandodaSilvaCarvalho.pdf"
+                href="../../../../dowloads/Currículo(Dev)-FernandodaSilvaCarvalho.pdf"
                 download="Fernando Carvalho.pdf"
                 type="application/pdf"
               >
