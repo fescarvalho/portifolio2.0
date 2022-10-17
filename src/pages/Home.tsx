@@ -12,24 +12,32 @@ const Home = () => {
           <Photo />
 
           <div className="buttons">
-            <Button path="/sobre" name={"Sobre Mim"} icon={<FaUserAstronaut />}></Button>
+            <Button
+              path="/sobre"
+              name={"Sobre Mim"}
+              icon={<FaUserAstronaut className="icon_pulse" />}
+            ></Button>
 
-            <Button path="/projetos" name={"Projetos"} icon={<FaFileCode />} />
+            <Button
+              path="/projetos"
+              name={"Projetos"}
+              icon={<FaFileCode className="icon_pulse" />}
+            />
             <a
               id="link-home"
               href="https://www.linkedin.com/in/fecarvalhodev/"
               target="_blank"
             >
-              Linkedin
               <span>
-                <FaLinkedin />
+                <FaLinkedin className="icon_pulse" />
               </span>
+              Linkedin
             </a>
             <a id="link-home" href="https://github.com/fescarvalho" target="_blank">
-              Github
               <span>
-                <FaGithub />
+                <FaGithub className="icon_pulse" />
               </span>
+              Github
             </a>
           </div>
           <p>Desenvolvido por @Fernando Carvalho</p>

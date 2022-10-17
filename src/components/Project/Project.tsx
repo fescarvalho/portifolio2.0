@@ -44,10 +44,10 @@ const Project = (props: PropsProject) => {
             <h3>Links</h3>
             <div className="url">
               <a href={props.linkGithub} target="_blank">
-                <FaGithub />
+                <FaGithub className="iconRotate" />
               </a>
               <a href={props.linkLinkedin} target="_blank">
-                <FaFileCode />
+                <FaFileCode className="iconRotate" />
               </a>
             </div>
           </div>

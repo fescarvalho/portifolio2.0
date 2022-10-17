@@ -78,3 +78,17 @@ a span {
     box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
   }
 }
+
+.icon_pulse {
+  animation: circle 2s steps(100) infinite;
+}
+
+@keyframes circle {
+  from {
+    transform: rotateY(90deg);
+  }
+
+  to {
+    transform: rotateY(450deg);
+  }
+}
