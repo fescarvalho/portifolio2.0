@@ -4,7 +4,7 @@ import "./Button.css";
 interface ButtonProps {
   path: string;
   name: string;
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
 }
 
 const Button = (props: ButtonProps) => {
