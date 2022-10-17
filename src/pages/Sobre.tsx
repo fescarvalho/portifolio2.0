@@ -23,6 +23,7 @@ const Sobre = () => {
               <a href={Document} download="FernandoCarvalho.pdf" type="application/pdf">
                 <FaArrowDown className="iconDown" /> Currículo
               </a>
+              <p>Clique para fazer dowload do meu curriculo.</p>
             </div>
 
             <ul>

@@ -64,6 +64,20 @@
     0px 60px 0px 0px rgba(95, 205, 217, 0.4);
 }
 
+.content .curriculo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content .text .curriculo p {
+  font-family: Poppins;
+  font-size: 0.8rem;
+}
+.content .text .curriculo a {
+  margin-bottom: 2px;
+}
+
 .content .text::before {
   content: "";
   position: absolute;
@@ -81,8 +95,8 @@
   color: #ccc;
   font-family: Roboto Mono;
   margin-bottom: 2rem;
-  flex-wrap: wrap;
 }
+
 .content .text p {
   font-family: Roboto Mono;
   font-size: 1.3rem;
@@ -106,7 +120,7 @@
     width: 0;
   }
   to {
-    width: 15em;
+    width: 16em;
   }
 }
 
@@ -214,5 +228,9 @@
     margin: 1rem;
 
     padding: 1rem;
+  }
+
+  .content .text .curriculo p {
+    font-size: 0.7rem;
   }
 }
