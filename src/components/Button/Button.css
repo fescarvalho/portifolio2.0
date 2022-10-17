@@ -33,3 +33,51 @@
 .button span {
   font-size: 2rem;
 }
+/* -------MEDIA------------ */
+
+@media (max-width: 600px) {
+  .button {
+    width: 18rem;
+    height: 3rem;
+    margin: 1.5rem;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .button span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .button {
+    width: 18rem;
+    height: 3rem;
+    margin: 1.5rem;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .button span {
+    font-size: 1.5rem;
+  }
+  .card p {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .button {
+    width: 15rem;
+    height: 3rem;
+  }
+
+  .button span {
+    font-size: 1.5rem;
+  }
+  .card p {
+    margin-top: 0.5rem;
+  }
+}

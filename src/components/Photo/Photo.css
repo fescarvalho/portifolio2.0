@@ -1,4 +1,8 @@
 .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: none;
   margin: 1.5rem 0;
   box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
@@ -7,4 +11,16 @@
 .photo img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 450px) {
+  .photo {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .photo {
+    width: 10rem;
+  }
 }

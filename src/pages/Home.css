@@ -92,3 +92,73 @@ a span {
     transform: rotateY(450deg);
   }
 }
+
+/* -------MEDIA------------ */
+
+@media (max-width: 600px) {
+  .card {
+    padding: 0.4rem;
+    width: 25rem;
+    height: 40rem;
+  }
+
+  a {
+    width: 18rem;
+    height: 3rem;
+    margin: 1.5rem;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  a span {
+    font-size: 1.5rem;
+  }
+  .card p {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .card {
+    padding: 0.2rem;
+    width: 22rem;
+    height: 40rem;
+  }
+
+  a {
+    width: 18rem;
+    height: 3rem;
+  }
+
+  a span {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .card {
+    padding: 0.2rem;
+    width: 20rem;
+    height: 35rem;
+  }
+
+  a {
+    width: 15rem;
+    height: 3rem;
+  }
+
+  a span {
+    font-size: 1.5rem;
+  }
+  .buttons {
+    margin-bottom: 0;
+  }
+  .card p {
+    font-size: 0.6rem;
+  }
+}
