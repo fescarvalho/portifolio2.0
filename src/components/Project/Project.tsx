@@ -15,7 +15,7 @@ const Project = (props: PropsProject) => {
   return (
     <motion.div
       className="project"
-      style={{ backgroundImage: `url(${props.background})` }}
+      style={{ backgroundImage: `url(${props.background}` }}
     >
       <div className="projectBlur">
         <h2>{props.title}</h2>

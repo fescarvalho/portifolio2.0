@@ -12,7 +12,7 @@ const Header = (props: HeaderProps) => {
       </Link>
       <h1 className="title">{props.title}</h1>
       <Link to="/sobre" className="link">
-        Sobre mim
+        Sobre
       </Link>
     </div>
   );

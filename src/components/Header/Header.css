@@ -39,14 +39,14 @@
     font-size: 0.8rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 390px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .link {
-    width: 5rem;
-    height: 2rem;
+    width: 4rem;
+    height: 1.2rem;
     font-size: 0.8rem;
   }
 }

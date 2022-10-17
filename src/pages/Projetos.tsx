@@ -9,11 +9,9 @@ import "./Projetos.css";
 const Projetos = () => {
   const carrousel = useRef<HTMLInputElement | any>(null);
   const [width, setWidtht] = useState<number>(0);
-  const [mobile, setMobile] = useState<number>();
 
   useEffect(() => {
     setWidtht(carrousel.current?.scrollWidth - carrousel.current?.offsetWidth);
-    setMobile(window.innerWidth);
   }, []);
 
   return (
@@ -25,8 +23,8 @@ const Projetos = () => {
             className="projects-main"
             whileTap={{ cursor: "grabbing" }}
             drag="x"
-            dragConstraints={{ right: 100, left: -width }}
-            initial={{ x: 0 }}
+            dragConstraints={{ right: 0, left: -width }}
+            initial={{ x: 200 }}
             animate={{ x: 0 }}
             transition={{ duration: 0.8 }}
           >
