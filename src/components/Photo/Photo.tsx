@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 interface PhotoProps {
-  avatar: string;
+  avatar?: string;
 }
 
 const Photo = (props: PhotoProps) => {
