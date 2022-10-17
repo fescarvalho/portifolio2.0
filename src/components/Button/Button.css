@@ -10,7 +10,7 @@
   box-shadow: ;
   font-family: Roboto Mono, "Helvetica";
   box-shadow: 2px 5px 11px 1px rgba(95, 205, 217, 0.55);
-  margin: 2.5rem;
+  margin: 1.5rem;
   transition: all 0.2s;
   cursor: pointer;
   padding: 0 2rem;
@@ -39,7 +39,7 @@
   .button {
     width: 18rem;
     height: 3rem;
-    margin: 1.5rem;
+    margin: 1rem;
     padding: 0 2rem;
     font-size: 1.2rem;
     font-weight: 600;
@@ -54,7 +54,7 @@
   .button {
     width: 18rem;
     height: 3rem;
-    margin: 1.5rem;
+    margin: 1rem;
     padding: 0 2rem;
     font-size: 1.2rem;
     font-weight: 600;

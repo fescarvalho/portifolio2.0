@@ -10,6 +10,10 @@ const Home = () => {
       <div className="blur">
         <div className="card">
           <Photo />
+          <div className="infos">
+            <h1>Fernando Carvalho</h1>
+            <p>Desenvolvedor Front-End</p>
+          </div>
 
           <div className="buttons">
             <Button

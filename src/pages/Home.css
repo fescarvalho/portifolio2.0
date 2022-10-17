@@ -7,7 +7,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 35rem;
   height: 50rem;
@@ -22,6 +22,33 @@
   color: #5fcdd9;
   font-family: Roboto Mono;
   font-size: 0.8rem;
+}
+.card .infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .infos h1 {
+  color: #fff;
+  font-family: Roboto Mono;
+}
+.card .infos p {
+  font-family: Poppins;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  position: relative;
+}
+.card .infos p::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background: #5fcdd9;
+  bottom: 0;
 }
 
 .blur {
@@ -47,7 +74,7 @@ a {
   box-shadow: ;
   font-family: Roboto Mono, "Helvetica";
   box-shadow: 2px 5px 11px 1px rgba(95, 205, 217, 0.55);
-  margin: 2.5rem;
+  margin: 1.5rem;
   transition: all 0.2s;
   cursor: pointer;
   padding: 0 2rem;
@@ -105,7 +132,7 @@ a span {
   a {
     width: 18rem;
     height: 3rem;
-    margin: 1.5rem;
+    margin: 1rem;
     padding: 0 2rem;
     font-size: 1.2rem;
     font-weight: 600;
@@ -115,7 +142,14 @@ a span {
     font-size: 1.5rem;
   }
   .card p {
-    margin-top: 0.5rem;
+    margin-top: 0rem;
+  }
+  .card .infos p {
+    margin-top: 0.2rem;
+    margin-bottom: 0rem;
+  }
+  .card .buttons {
+    margin: 1rem;
   }
 }
 
@@ -124,6 +158,9 @@ a span {
     padding: 0.2rem;
     width: 22rem;
     height: 40rem;
+  }
+  .card .infos h1 {
+    font-size: 1.6rem;
   }
 
   a {
@@ -135,8 +172,8 @@ a span {
     font-size: 1.5rem;
   }
 
-  .buttons {
-    margin-bottom: 2rem;
+  .card .buttons {
+    margin: 2rem;
   }
 }
 
@@ -147,6 +184,10 @@ a span {
     height: 35rem;
   }
 
+  .buttons {
+    padding: 0;
+    margin: 1rem;
+  }
   a {
     width: 15rem;
     height: 3rem;
@@ -155,7 +196,9 @@ a span {
   a span {
     font-size: 1.5rem;
   }
-  .buttons {
+
+  .card .buttons {
+    margin-top: 1.5rem;
     margin-bottom: 0;
   }
   .card p {
