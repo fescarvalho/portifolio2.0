@@ -30,9 +30,7 @@ const Sobre = () => {
               <li>
                 Me chamo Fernando, sou tecnólogo em Analise e Desenvolvimento de Sistemas
                 desde 2019 e Pós-Graduado em Business intelligence, big data e analytics
-                (Ciência de Dados). Me chamo Fernando, sou tecnólogo em Analise e
-                Desenvolvimento de Sistemas desde 2019 e Pós-Graduado em Business
-                intelligence, big data e analytics (Ciência de Dados).
+                (Ciência de Dados).
               </li>
 
               <li>
