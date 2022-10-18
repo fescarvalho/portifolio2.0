@@ -18,7 +18,7 @@ const Home = () => {
           <div className="buttons">
             <Button
               path="/sobre"
-              name={"Sobre Mim"}
+              name={"Quem sou eu?"}
               icon={<FaUserAstronaut className="icon_pulse" />}
             ></Button>
 

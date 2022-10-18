@@ -9,7 +9,7 @@ const Sobre = () => {
     <>
       <div className="sobre">
         <Header
-          title="Sobre Mim"
+          title="Quem sou eu?"
           nameOne="Home"
           nameTwo="Projetos"
           toOne="/"
