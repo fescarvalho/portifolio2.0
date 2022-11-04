@@ -1,5 +1,4 @@
 import "./Home.css";
-
 import Button from "../components/Button/Button";
 import { FaUserAstronaut, FaFileCode, FaGithub, FaLinkedin } from "react-icons/fa";
 import Photo from "../components/Photo/Photo";

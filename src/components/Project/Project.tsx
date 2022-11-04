@@ -1,7 +1,7 @@
 import "./Project.css";
-
 import { FaGithub, FaFileCode } from "react-icons/fa";
 import { motion } from "framer-motion";
+
 interface PropsProject {
   title: string;
   tecnologiasFront: string[];

@@ -90,6 +90,26 @@
   transform: rotateY(360deg);
   color: #5fcdd9;
 }
+.swiper {
+  padding: 30px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #5fcdd9;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #5fcdd9;
+}
 
 @media (max-width: 450px) {
   .project {
