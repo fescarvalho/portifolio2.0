@@ -1,6 +1,5 @@
 import "./Project.css";
 import { FaGithub, FaFileCode } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 interface PropsProject {
   title: string;
@@ -13,10 +12,7 @@ interface PropsProject {
 
 const Project = (props: PropsProject) => {
   return (
-    <motion.div
-      className="project"
-      style={{ backgroundImage: `url(${props.background}` }}
-    >
+    <div className="project" style={{ backgroundImage: `url(${props.background}` }}>
       <div className="projectBlur">
         <h2>{props.title}</h2>
         <div className="project-info">
@@ -53,7 +49,7 @@ const Project = (props: PropsProject) => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
