@@ -46,7 +46,7 @@
       "tecnologiasFront": ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
       "linkGithub": "https://github.com/fescarvalho/todoTypes",
       "linkLinkedin": "https://todo-types.vercel.app/",
-      "background": "../public/todo.png"
+      "background": "https://i.picasion.com/pic92/332337a46a32269feb0b69d650503044.gif"
     }
   ]
 }
