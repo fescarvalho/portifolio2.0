@@ -47,6 +47,14 @@
       "linkGithub": "https://github.com/fescarvalho/todoTypes",
       "linkLinkedin": "https://todo-types.vercel.app/",
       "background": "https://i.picasion.com/pic92/332337a46a32269feb0b69d650503044.gif"
+    },
+    {
+      "title": "HoursBus",
+      "tecnologiasBack": ["Not Backend"],
+      "tecnologiasFront": ["React", "TypeScript", "CSS Modules", "JavaScript"],
+      "linkGithub": "https://github.com/fescarvalho/HoursBus",
+      "linkLinkedin": "https://hoursbus.vercel.app/",
+      "background": "https://i.picasion.com/pic92/3d9ccac55363817265adb65d62a1c6b1.gif"
     }
   ]
 }

@@ -37,7 +37,7 @@ const Projetos = () => {
               }}
             >
               {projetos.map((projeto) => (
-                <SwiperSlide>
+                <SwiperSlide key={projeto.title}>
                   <Project
                     title={projeto.title}
                     tecnologiasFront={projeto.tecnologiasFront}
