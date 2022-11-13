@@ -1,21 +1,26 @@
 import { FaArrowDown } from "react-icons/fa";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
+import { motion } from "framer-motion";
 import Document from "../assets/dowloads/Currículo(Dev) - Fernando da Silva Carvalho (1).pdf";
 import "./Sobre.css";
 
 const Sobre = () => {
   return (
     <>
-      <div className="sobre">
-        <Header
-          title="Quem sou eu?"
-          nameOne="Home"
-          nameTwo="Projetos"
-          toOne="/"
-          toTwo="/projetos"
-        />
-
+      <Header
+        title="Quem sou eu?"
+        nameOne="Home"
+        nameTwo="Projetos"
+        toOne="/"
+        toTwo="/projetos"
+      />
+      <motion.div
+        className="sobre"
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+        exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+      >
         <div className="content">
           <div className="text">
             <h2 className="typing-animation">Ola, seja muito bem vindo!!</h2>
@@ -47,7 +52,7 @@ const Sobre = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
       <Footer />
     </>
   );

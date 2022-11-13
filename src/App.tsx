@@ -1,22 +1,30 @@
+import AnimatesRoutes from "./AnimatesRoutes";
+import { BrowserRouter } from "react-router-dom";
+import HashLoader from "react-spinners/HashLoader";
+import { useEffect, useState } from "react";
 import "./App.css";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import Home from "./pages/Home";
-import Sobre from "./pages/Sobre";
-import Projetos from "./pages/Projetos";
-
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+  }, []);
   return (
-    <div className="app">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/sobre" element={<Sobre />} />
-          <Route path="/projetos" element={<Projetos />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      {loading ? (
+        <div className="loader">
+          <HashLoader loading={loading} color={"#5FCDD9"} size={100} />
+        </div>
+      ) : (
+        <div className="app">
+          <AnimatesRoutes />
+        </div>
+      )}
+    </BrowserRouter>
   );
 }
 

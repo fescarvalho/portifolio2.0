@@ -1,12 +1,19 @@
 import "./Home.css";
 import Button from "../components/Button/Button";
+import { motion } from "framer-motion";
 import { FaUserAstronaut, FaFileCode, FaGithub, FaLinkedin } from "react-icons/fa";
 import Photo from "../components/Photo/Photo";
 
 const Home = () => {
   return (
     <>
-      <div className="blur">
+      <motion.div
+        className="blur"
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+        exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+        transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
+      >
         <div className="card">
           <Photo />
           <div className="infos">
@@ -45,7 +52,7 @@ const Home = () => {
           </div>
           <p>Desenvolvido por @Fernando Carvalho</p>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
