@@ -1,6 +1,6 @@
 import AnimatesRoutes from "./AnimatesRoutes";
 import { BrowserRouter } from "react-router-dom";
-import HashLoader from "react-spinners/HashLoader";
+import ScaleLoader from "react-spinners/ScaleLoader";
 import { useEffect, useState } from "react";
 import "./App.css";
 
@@ -17,7 +17,13 @@ function App() {
     <BrowserRouter>
       {loading ? (
         <div className="loader">
-          <HashLoader loading={loading} color={"#5FCDD9"} size={100} />
+          <ScaleLoader
+            loading={loading}
+            color={"#5FCDD9"}
+            height={100}
+            width={20}
+            margin={10}
+          />
         </div>
       ) : (
         <div className="app">
