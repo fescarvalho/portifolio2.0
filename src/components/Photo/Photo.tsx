@@ -1,5 +1,6 @@
 import "../Photo/Photo.css";
 import axios from "axios";
+import FadeLoader from "react-spinners/FadeLoader";
 import { useEffect, useState } from "react";
 
 interface PhotoProps {
@@ -15,9 +16,21 @@ const Photo = (props: PhotoProps) => {
   }, []);
 
   return (
-    <div className="photo">
-      <img src={avatar} />
-    </div>
+    <>
+      {avatar ? (
+        <div className="photo">
+          <img src={avatar} />
+        </div>
+      ) : (
+        <FadeLoader
+          color="#d362ba"
+          height={15}
+          margin={10}
+          speedMultiplier={1}
+          width={6}
+        />
+      )}
+    </>
   );
 };
 

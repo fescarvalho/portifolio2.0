@@ -38,18 +38,27 @@
   font-family: Poppins;
   font-size: 0.8rem;
   margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   letter-spacing: 2px;
   position: relative;
+  background: #111112;
+  box-shadow: -11px 11px 22px rgba(6, 6, 6, 0.1), inset 6px 11px 2px rgba(31, 30, 30, 0.1),
+    inset 2px -1px 2px rgba(5, 5, 5, 0.5);
+
+  /* Note: backdrop-filter has minimal browser support */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border-radius: 10px;
 }
-.card .infos p::before {
+
+/* .card .infos p::before {
   content: "";
   width: 100%;
   height: 1px;
   position: absolute;
   background: #5fcdd9;
   bottom: 0;
-}
+} */
 
 .blur {
   background: url("../../public/Adidas (1).svg") no-repeat center,

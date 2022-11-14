@@ -11,14 +11,15 @@ const Home = () => {
         className="blur"
         initial={{ width: 0 }}
         animate={{ width: "100%" }}
-        exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
-        transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
+        exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
+        transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
       >
         <div className="card">
           <Photo />
           <div className="infos">
             <h1>Fernando Carvalho</h1>
-            <p>Desenvolvedor Front-End</p>
+
+            <p className="typing-animation2">Desenvolvedor Front-End</p>
           </div>
 
           <div className="buttons">
