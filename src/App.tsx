@@ -2,6 +2,7 @@ import AnimatesRoutes from "./AnimatesRoutes";
 import { BrowserRouter } from "react-router-dom";
 import ScaleLoader from "react-spinners/ScaleLoader";
 import { useEffect, useState } from "react";
+
 import "./App.css";
 
 function App() {

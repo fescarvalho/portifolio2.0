@@ -29,18 +29,24 @@ const Projetos = () => {
           <div className="projects">
             <div className="projects-main">
               <Swiper
-                spaceBetween={50}
+                spaceBetween={100}
                 slidesPerView={3}
                 navigation={true}
                 pagination={{ clickable: true }}
                 modules={[Pagination, Navigation]}
                 breakpoints={{
-                  300: {
-                    slidesPerView: 1,
+                  100: {
                     spaceBetween: 100,
+                    slidesPerView: 1,
                   },
-                  500: { slidesPerView: 2 },
-                  1000: { slidesPerView: 3 },
+                  1300: {
+                    spaceBetween: 100,
+                    slidesPerView: 2,
+                  },
+                  1600: {
+                    spaceBetween: 100,
+                    slidesPerView: 3,
+                  },
                 }}
               >
                 {projetos.map((projeto) => (

@@ -1,19 +1,15 @@
 import "./Home.css";
 import Button from "../components/Button/Button";
-import { motion } from "framer-motion";
+
+import ParticlesComponent from "../components/Particles/Particles";
 import { FaUserAstronaut, FaFileCode, FaGithub, FaLinkedin } from "react-icons/fa";
 import Photo from "../components/Photo/Photo";
 
 const Home = () => {
   return (
     <>
-      <motion.div
-        className="blur"
-        initial={{ width: 0 }}
-        animate={{ width: "100%" }}
-        exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
-        transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
-      >
+      <ParticlesComponent />
+      <div className="blur">
         <div className="card">
           <Photo />
           <div className="infos">
@@ -53,7 +49,7 @@ const Home = () => {
           </div>
           <p>Desenvolvido por @Fernando Carvalho</p>
         </div>
-      </motion.div>
+      </div>
     </>
   );
 };

@@ -1,6 +1,6 @@
 .sobre {
   overflow: hidden;
-  min-height: 60rem;
+  min-height: 100vh;
 }
 .content {
   display: flex;
@@ -54,7 +54,7 @@
 .content .text::after {
   content: "";
   position: absolute;
-  width: 50rem;
+  width: 100vw;
   height: 6px;
   background-color: rgba(95, 205, 217, 0.4);
   right: 799px;
@@ -63,6 +63,17 @@
     0px 60px 0px 0px rgba(95, 205, 217, 0.4);
 }
 
+.content .text::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 6px;
+  background-color: rgba(95, 205, 217, 0.4);
+  left: 799px;
+  bottom: 100px;
+  box-shadow: 0px 30px 0px 0px rgba(95, 205, 217, 0.9),
+    0px 60px 0px 0px rgba(95, 205, 217, 0.4);
+}
 .content .curriculo {
   display: flex;
   flex-direction: column;
@@ -78,17 +89,6 @@
   margin-top: 0px;
 }
 
-.content .text::before {
-  content: "";
-  position: absolute;
-  width: 35rem;
-  height: 6px;
-  background-color: rgba(95, 205, 217, 0.4);
-  left: 799px;
-  bottom: 100px;
-  box-shadow: 0px 30px 0px 0px rgba(95, 205, 217, 0.9),
-    0px 60px 0px 0px rgba(95, 205, 217, 0.4);
-}
 .content .text h2 {
   border-right: 1px solid #ccc;
   font-size: 2rem;
@@ -147,16 +147,8 @@
 }
 
 /* -------MEDIA--------- */
-@media (max-width: 800) {
-  .sobre {
-    height: 100vh;
-  }
-}
 
 @media (max-width: 600px) {
-  .sobre {
-    height: 100%;
-  }
   .content .text h2 {
     font-size: 1.5rem;
 
@@ -203,9 +195,6 @@
 }
 
 @media (max-width: 500px) {
-  .sobre {
-    height: 100%;
-  }
   .content .text h2 {
     font-size: 1.2rem;
 
@@ -220,9 +209,6 @@
 }
 
 @media (max-width: 400px) {
-  .sobre {
-    height: 100%;
-  }
   .content .text h2 {
     font-size: 1rem;
   }
