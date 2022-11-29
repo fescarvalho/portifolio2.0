@@ -2,7 +2,7 @@ import { FaArrowDown } from "react-icons/fa";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import { motion } from "framer-motion";
-import Document from "../assets/dowloads/Currículo(Dev) - Fernando da Silva Carvalho (1).pdf";
+import Document from "../assets/dowloads/Currículo(Dev) - Fernando da Silva Carvalho.pdf";
 import "./Sobre.css";
 
 const Sobre = () => {
