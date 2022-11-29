@@ -5,21 +5,21 @@
 }
 
 .card {
+  width: 26rem;
+  max-height: 45rem;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 35rem;
-  height: 50rem;
   background-color: rgba(6, 6, 6, 0.8);
   box-shadow: 1px 1px 6px 2px rgba(95, 205, 217, 0.55);
   border-radius: 5px;
   animation: box-shadow 1s alternate infinite;
 }
 
-.card p {
-  margin-top: 2rem;
+.card > p {
+  margin: 1rem 0 0.5rem 0;
   color: #5fcdd9;
   font-family: Roboto Mono;
   font-size: 0.8rem;
@@ -36,6 +36,7 @@
   font-family: Roboto Mono;
 }
 .card .infos p {
+  color: #5fcdd9;
   font-family: Poppins;
   font-size: 0.8rem;
   margin-top: 0.5rem;
@@ -148,9 +149,7 @@ a span {
   a span {
     font-size: 1.5rem;
   }
-  .card > p {
-    margin: 0 0 0.8rem 0;
-  }
+
   .card .infos p {
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -162,9 +161,8 @@ a span {
 
 @media (max-width: 450px) {
   .card {
+    max-width: 22rem;
     padding: 0.2rem;
-    width: 22rem;
-    height: 40rem;
   }
   .card .infos h1 {
     font-size: 1.6rem;
@@ -178,34 +176,41 @@ a span {
   a span {
     font-size: 1.5rem;
   }
-
-  .card .buttons {
-    margin: 2rem;
-  }
 }
 
 @media (max-width: 380px) {
   .card {
-    padding: 0.2rem;
-    width: 20rem;
-    height: 35rem;
+    max-width: 18rem;
+    max-height: 35rem;
   }
-
+  .card .infos h1 {
+    font-size: 1.5rem;
+  }
+  .card .infos p {
+    font-size: 0.7rem;
+  }
   .buttons {
     padding: 0;
     margin: 1rem;
   }
   a {
-    width: 15rem;
+    width: 14rem;
     height: 3rem;
+    font-size: 1rem;
+    padding: 0 1.2rem;
+  }
+  .buttons a:first-child {
+    margin-top: 0.5rem;
+  }
+  .buttons a:last-child {
+    margin-bottom: 1.2rem;
   }
 
-  a span {
+  .buttons a span {
     font-size: 1.5rem;
   }
 
   .card .buttons {
-    margin-top: 1.5rem;
     margin-bottom: 0;
   }
   .card p {

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20rem;
-  height: 3.5rem;
+  max-width: 20rem;
+  max-height: 4rem;
   background-color: #5fcdd9;
   border-radius: 5px;
   border: none;
@@ -38,7 +38,7 @@
 @media (max-width: 600px) {
   .button {
     width: 18rem;
-    height: 3rem;
+    max-height: 3rem;
     margin: 1rem;
     padding: 0 2rem;
     font-size: 1.2rem;
@@ -70,8 +70,10 @@
 
 @media (max-width: 380px) {
   .button {
-    width: 15rem;
+    width: 14rem;
     height: 3rem;
+    font-size: 1rem;
+    padding: 0 1.2rem;
   }
 
   .button span {
