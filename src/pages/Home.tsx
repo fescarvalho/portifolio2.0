@@ -31,6 +31,7 @@ const Home = () => {
               icon={<FaFileCode className="icon_pulse" />}
             />
             <a
+              className="button"
               id="link-home"
               href="https://www.linkedin.com/in/fecarvalhodev/"
               target="_blank"
@@ -40,7 +41,12 @@ const Home = () => {
               </span>
               Linkedin
             </a>
-            <a id="link-home" href="https://github.com/fescarvalho" target="_blank">
+            <a
+              className="button"
+              id="link-home"
+              href="https://github.com/fescarvalho"
+              target="_blank"
+            >
               <span>
                 <FaGithub className="icon_pulse" />
               </span>

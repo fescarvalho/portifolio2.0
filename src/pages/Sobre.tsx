@@ -25,7 +25,12 @@ const Sobre = () => {
           <div className="text">
             <h2 className="typing-animation">Ola, seja muito bem vindo!!</h2>
             <div className="curriculo">
-              <a href={Document} download="FernandoCarvalho.pdf" type="application/pdf">
+              <a
+                className="button"
+                href={Document}
+                download="FernandoCarvalho.pdf"
+                type="application/pdf"
+              >
                 <FaArrowDown className="iconDown" /> Currículo
               </a>
               <p>Clique para fazer dowload do meu curriculo.</p>

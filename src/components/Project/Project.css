@@ -1,5 +1,6 @@
 .project {
-  max-width: 380px;
+  width: 22rem;
+  min-height: 30rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +8,6 @@
   border-radius: 5px;
   border: none;
   display: flex;
-
   flex-direction: column;
   text-align: center;
   color: #e0e4e7;
@@ -22,25 +22,36 @@
   display: flex;
   flex-direction: column;
 }
-
-.project h2 {
+.projectBlur h2 {
+  position: relative;
+  display: flex;
   font-family: Poppins;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.projectBlur h2::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  top: 60px;
+  height: 2px;
+  background-color: #aaa;
 }
 
 .project-info h3 {
   font-family: Roboto Mono;
-  margin-bottom: 10px;
   font-size: 1.5rem;
   font-weight: 600;
   color: #5fcdd9;
 }
 
 .project-info .tecnologias {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  background-color: rgb(9, 9, 9, 0.6);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .project-info .tecnologias p {
@@ -51,8 +62,9 @@
 
 .project-info .tecnologias ul {
   list-style: none;
-  margin-bottom: 12px;
-  height: 8rem;
+  height: 10rem;
+  margin-top: 10px;
+  border: 1px solid #aaa;
 }
 
 .project-info .tecnologias ul li {
@@ -61,13 +73,6 @@
   margin: 5px 0;
 }
 
-.project-info .links h3 {
-  margin: 0;
-}
-
-.project-info .links {
-  padding-bottom: 2rem;
-}
 .project-info .links .url {
   display: flex;
   justify-content: center;
@@ -76,12 +81,13 @@
 .project-info .links .url a {
   display: flex;
   justify-content: center;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
   background: none;
   box-shadow: none;
   color: white;
   font-size: 2.5rem;
   cursor: pointer;
+  margin: 1rem 2rem;
 }
 .iconRotate {
   transition: 0.5s all ease;
@@ -92,6 +98,7 @@
 }
 .swiper {
   padding: 30px;
+  height: 100%;
 }
 
 .swiper-slide {

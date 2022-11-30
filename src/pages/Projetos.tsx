@@ -53,8 +53,7 @@ const Projetos = () => {
                   <SwiperSlide key={projeto.title}>
                     <Project
                       title={projeto.title}
-                      tecnologiasFront={projeto.tecnologiasFront}
-                      tecnologiasBack={projeto.tecnologiasBack}
+                      tecnologias={projeto.tecnologias}
                       linkLinkedin={projeto.linkLinkedin}
                       linkGithub={projeto.linkGithub}
                       background={projeto.background}

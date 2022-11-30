@@ -3,8 +3,7 @@ import { FaGithub, FaFileCode } from "react-icons/fa";
 
 interface PropsProject {
   title: string;
-  tecnologiasFront: string[];
-  tecnologiasBack: string[];
+  tecnologias: string[];
   linkLinkedin: string;
   linkGithub: string;
   background: string;
@@ -16,21 +15,11 @@ const Project = (props: PropsProject) => {
       <div className="projectBlur">
         <h2>{props.title}</h2>
         <div className="project-info">
-          <h3>Tecnologias</h3>
-
           <div className="tecnologias">
+            <h3>Tecnologias</h3>
             <div className="front">
-              <p>FrontEnd</p>
               <ul>
-                {props.tecnologiasFront.map((tec) => (
-                  <li key={tec}>{tec}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="back">
-              <p>BackEnd</p>
-              <ul>
-                {props.tecnologiasBack.map((tec) => (
+                {props.tecnologias.map((tec) => (
                   <li key={tec}>{tec}</li>
                 ))}
               </ul>

@@ -1,57 +1,50 @@
 {
   "projetos": [
     {
-      "title": "Dogs-Rede Social 1",
-      "tecnologiasBack": ["MongoDB"],
-      "tecnologiasFront": ["React", "ReactHooks", "CSS Modules"],
+      "title": "Dogs-Rede Social",
+      "tecnologias": ["React", "ReactHooks", "CSS Modules", "MongoDB"],
       "linkGithub": "https://github.com/fescarvalho/Dogs",
       "linkLinkedin": "https://dogs-social.vercel.app/",
       "background": "https://i.picasion.com/pic92/7b72513b706acc751bea8f6b651abdbd.gif"
     },
     {
       "title": "BikeCraft",
-      "tecnologiasBack": ["Not Backend"],
-      "tecnologiasFront": ["HTML", "CSS", "JavaScript"],
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
       "linkGithub": "https://github.com/fescarvalho/bikcraft",
       "linkLinkedin": "https://bikcraftmotors.netlify.app/",
       "background": "https://i.picasion.com/pic92/8513d828ad1f3f83fa5ed9cda7fcb411.gif"
     },
     {
       "title": "Animais Fantásticos",
-      "tecnologiasBack": ["Not Backend"],
-      "tecnologiasFront": ["HTML", "CSS", "JavaScript"],
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
       "linkGithub": "https://github.com/fescarvalho/animals",
       "linkLinkedin": "https://animalsf.netlify.app/",
       "background": "https://i.picasion.com/pic92/0a0faab4d1669cf1820dd082f620aa00.gif"
     },
     {
       "title": "Ranked",
-      "tecnologiasBack": ["Not Backend"],
-      "tecnologiasFront": ["React", "CSS modules"],
+      "tecnologias": ["React", "CSS modules"],
       "linkGithub": "https://github.com/fescarvalho/RanekdReact",
       "linkLinkedin": "https://ranekd-react.vercel.app/",
       "background": "https://i.picasion.com/pic92/7d714771e7bd48f76cd55687e6c64c9d.gif"
     },
     {
       "title": "Wather App",
-      "tecnologiasBack": ["Not Backend"],
-      "tecnologiasFront": ["HTML", "CSS", "JavaScript", "JQuery", "Axios"],
+      "tecnologias": ["HTML", "CSS", "JavaScript", "JQuery", "Axios"],
       "linkGithub": "https://github.com/fescarvalho/weatehr_app",
       "linkLinkedin": "https://fescarvalho.github.io/weatehr_app/",
       "background": "https://i.picasion.com/pic92/bdf552fb712e616045ee676c6556398b.gif"
     },
     {
       "title": "TodoList",
-      "tecnologiasBack": ["Not Backend"],
-      "tecnologiasFront": ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
+      "tecnologias": ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
       "linkGithub": "https://github.com/fescarvalho/todoTypes",
       "linkLinkedin": "https://todo-types.vercel.app/",
       "background": "https://i.picasion.com/pic92/332337a46a32269feb0b69d650503044.gif"
     },
     {
       "title": "HoursBus",
-      "tecnologiasBack": ["Not Backend"],
-      "tecnologiasFront": ["React", "TypeScript", "CSS Modules", "JavaScript"],
+      "tecnologias": ["React", "TypeScript", "CSS Modules", "JavaScript"],
       "linkGithub": "https://github.com/fescarvalho/HoursBus",
       "linkLinkedin": "https://hoursbus.vercel.app/",
       "background": "https://i.picasion.com/pic92/3d9ccac55363817265adb65d62a1c6b1.gif"

@@ -11,11 +11,11 @@ interface HeaderProps {
 const Header = (props: HeaderProps) => {
   return (
     <div className="header">
-      <Link to={props.toOne} className="link">
+      <Link to={props.toOne} className="link button">
         {props.nameOne}
       </Link>
       <h1 className="title">{props.title}</h1>
-      <Link to={props.toTwo} className="link">
+      <Link to={props.toTwo} className="link button">
         {props.nameTwo}
       </Link>
     </div>
