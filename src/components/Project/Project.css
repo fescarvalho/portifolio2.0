@@ -118,14 +118,23 @@
   color: #5fcdd9;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .project {
-    max-width: 300px;
-    padding: 10px;
+    min-width: 20rem;
   }
 
   .project h2 {
     font-size: 1.3rem;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .project {
+    min-width: 10rem;
+  }
+
+  .project h2 {
+    font-size: 1rem;
     padding: 1.5rem;
   }
 }
