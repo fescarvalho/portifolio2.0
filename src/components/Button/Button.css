@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 380px) {
-  .button {
+  .button a {
     width: 14rem;
     height: 3rem;
     font-size: 1rem;

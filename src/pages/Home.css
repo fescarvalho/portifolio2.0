@@ -137,8 +137,8 @@ a span {
     height: 40rem;
   }
 
-  a {
-    width: 18rem;
+  .card .buttons a {
+    width: 16rem;
     height: 3rem;
     margin: 1rem;
     padding: 0 2rem;
@@ -168,13 +168,8 @@ a span {
     font-size: 1.6rem;
   }
 
-  a {
-    width: 18rem;
-    height: 3rem;
-  }
-
   a span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -193,7 +188,7 @@ a span {
     padding: 0;
     margin: 1rem;
   }
-  a {
+  .card .buttons a {
     width: 14rem;
     height: 3rem;
     font-size: 1rem;
