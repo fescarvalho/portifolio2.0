@@ -1,8 +1,7 @@
 .main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .projects {
@@ -12,6 +11,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-top: 5rem;
 }
 .swiper {
   padding: 30px;
@@ -36,7 +36,6 @@
 
 .projects-main {
   width: 90%;
-  max-height: 500px;
   cursor: grab;
   display: flex;
   gap: 40px;

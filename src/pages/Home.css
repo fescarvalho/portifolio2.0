@@ -3,6 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+.imgfooter {
+  margin: 1rem 0 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.imgfooter img {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+.imgfooter p {
+  color: #5fcdd9;
+  font-family: Roboto Mono;
+  font-size: 0.8rem;
+}
 
 .card {
   width: 26rem;
@@ -63,8 +79,7 @@
 } */
 
 .blur {
-  margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

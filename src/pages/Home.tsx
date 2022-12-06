@@ -1,5 +1,6 @@
 import "./Home.css";
 import Button from "../components/Button/Button";
+import logo from "../../public/icons/logos/Logo5.png";
 
 import ParticlesComponent from "../components/Particles/Particles";
 import { FaUserAstronaut, FaFileCode, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -53,7 +54,10 @@ const Home = () => {
               Github
             </a>
           </div>
-          <p>Desenvolvido por @Fernando Carvalho</p>
+          <div className="imgfooter">
+            <img src={logo} alt="" />
+            <p>Desenvolvido por @Fernando Carvalho</p>
+          </div>
         </div>
       </div>
     </>
