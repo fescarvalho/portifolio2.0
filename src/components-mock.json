@@ -55,6 +55,13 @@
       "linkGithub": "https://github.com/fescarvalho/app_estacionamento",
       "linkLinkedin": "https://app-estacionamento.vercel.app/",
       "background": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "title": "Le Escone Restaurante",
+      "tecnologias": ["HTML", "SASS", "JavaScript"],
+      "linkGithub": "https://github.com/fescarvalho/LeScone",
+      "linkLinkedin": "https://le-scone-degust.vercel.app/",
+      "background": "https://i.picasion.com/pic92/722b7b822fe7ec61ee7dae131370769f.gif"
     }
   ]
 }
