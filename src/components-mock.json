@@ -62,6 +62,13 @@
       "linkGithub": "https://github.com/fescarvalho/LeScone",
       "linkLinkedin": "https://le-scone-degust.vercel.app/",
       "background": "https://i.picasion.com/pic92/722b7b822fe7ec61ee7dae131370769f.gif"
+    },
+    {
+      "title": "Pomodo APP",
+      "tecnologias": ["React", "TypeScript"],
+      "linkGithub": "https://github.com/fescarvalho/pomodoroTS",
+      "linkLinkedin": "https://pomodoro-ts.vercel.app//",
+      "background": "https://i.picasion.com/pic92/4a84045dfde090f986bcba3778aebc72.gif"
     }
   ]
 }
