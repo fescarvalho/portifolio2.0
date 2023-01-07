@@ -1,20 +1,15 @@
 import { FaArrowDown } from "react-icons/fa";
+
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import { motion } from "framer-motion";
-import Document from "../assets/dowloads/Currículo(Dev) - Fernando da Silva Carvalho.pdf";
+
 import "./Sobre.css";
 
 const Sobre = () => {
   return (
     <>
-      <Header
-        title="Quem sou eu?"
-        nameOne="Home"
-        nameTwo="Projetos"
-        toOne="/"
-        toTwo="/projetos"
-      />
+      <Header title="Quem sou eu?" nameOne="Home" nameTwo="Projetos" toOne="/" toTwo="/projetos" />
       <motion.div
         className="sobre"
         initial={{ width: 0 }}
@@ -27,9 +22,7 @@ const Sobre = () => {
             <div className="curriculo">
               <a
                 className="button"
-                href={Document}
-                download="FernandoCarvalho.pdf"
-                type="application/pdf"
+                href="https://drive.google.com/u/0/uc?id=1vuZ8rQhCoZQa3gen0og5WVi_o51O5M85&export=download"
               >
                 <FaArrowDown className="iconDown" /> Currículo
               </a>
@@ -38,20 +31,37 @@ const Sobre = () => {
 
             <ul>
               <li>
-                Me chamo Fernando, sou tecnólogo em Analise e Desenvolvimento de Sistemas
-                desde 2019 e Pós-Graduado em Business intelligence, big data e analytics
-                (Ciência de Dados).
+                Me chamo Fernando, sou tecnólogo em Analise e Desenvolvimento de Sistemas desde 2019
+                e Pós-Graduado em Business intelligence, big data e analytics (Ciência de Dados).
               </li>
 
               <li>
-                Sou apaixonado por tecnologia, possuo sólidos conhecimentos em
-                tecnologias, voltadas para o desenvolvimento web FrontEnd, como
-                Javascript, ReactJs, Typescript. Estou sempre em contínuo aprendizado e
-                atualização.
+                Sou apaixonado por tecnologia e possuo sólidos conhecimentos nas seguintes
+                tecnologias:
+              </li>
+              <li className="Tec">
+                <h4>FrontEnd: </h4>
+                <p>JavaScritpt, TypeScritpt, ReactJs, HTML, CSS, Twailwind,SASS, entre outras.</p>
+              </li>
+              <li className="Tec">
+                <h4>BackEnd: </h4>
+                <p>NodeJs, SQL, Docker</p>
+              </li>
+              <li className="Tec">
+                <h4> BD NoSQL: </h4>
+                <p>MongoDB</p>
+              </li>
+              <li className="Tec">
+                <h4> BD SQL: </h4>
+                <p>PostgresSQL</p>
+              </li>
+              <li className="Tec">
+                <h4> Versionamento:</h4>
+                <p>GIT, GitHub</p>
               </li>
               <li>
-                Atualmente, trabalho com vendas e comércio, e busco uma transição de
-                carreira para minha área de formação.
+                Estou sempre em constante estudo e atualização, em busca de uma oportunidade de
+                colocar todo meu conhecimento em prática.
               </li>
               <li>Estou disponível para novas oportunidades e desafios!</li>
             </ul>

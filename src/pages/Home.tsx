@@ -16,13 +16,13 @@ const Home = () => {
           <div className="infos">
             <h1>Fernando Carvalho</h1>
 
-            <p className="typing-animation2">Desenvolvedor Front-End</p>
+            <p className="typing-animation2">Desenvolvedor FullStack</p>
           </div>
 
           <div className="buttons">
             <Button
               path="/sobre"
-              name={"Quem sou eu?"}
+              name={"Sobre"}
               icon={<FaUserAstronaut className="icon_pulse" />}
             ></Button>
 

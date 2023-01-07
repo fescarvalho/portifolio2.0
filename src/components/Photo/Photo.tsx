@@ -22,13 +22,7 @@ const Photo = (props: PhotoProps) => {
           <img src={avatar} />
         </div>
       ) : (
-        <FadeLoader
-          color="#d362ba"
-          height={15}
-          margin={10}
-          speedMultiplier={1}
-          width={6}
-        />
+        <FadeLoader color="#0dc1e0" height={15} margin={10} speedMultiplier={1} width={6} />
       )}
     </>
   );
