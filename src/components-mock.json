@@ -15,11 +15,11 @@
       "background": "https://i.picasion.com/pic92/8513d828ad1f3f83fa5ed9cda7fcb411.gif"
     },
     {
-      "title": "Blog Animais",
-      "tecnologias": ["HTML", "CSS", "JavaScript"],
-      "linkGithub": "https://github.com/fescarvalho/animals",
-      "linkLinkedin": "https://animalsf.netlify.app/",
-      "background": "https://i.picasion.com/pic92/0a0faab4d1669cf1820dd082f620aa00.gif"
+      "title": "API Wallet App",
+      "tecnologias": ["NodeJs", "Docker", "PostgresSQL"],
+      "linkGithub": "https://github.com/fescarvalho/WalletAppBackend",
+      "linkLinkedin": "https://walletappbackend-production.up.railway.app/",
+      "background": "https://i.picasion.com/pic92/18afcd384492fcba8c0525a64e74ba4c.gif"
     },
     {
       "title": "Ranked",
@@ -69,6 +69,14 @@
       "linkGithub": "https://github.com/fescarvalho/pomodoroTS",
       "linkLinkedin": "https://pomodoro-ts.vercel.app//",
       "background": "https://i.picasion.com/pic92/4a84045dfde090f986bcba3778aebc72.gif"
+    },
+
+    {
+      "title": "Blog Animais",
+      "tecnologias": ["HTML", "CSS", "JavaScript"],
+      "linkGithub": "https://github.com/fescarvalho/animals",
+      "linkLinkedin": "https://animalsf.netlify.app/",
+      "background": "https://i.picasion.com/pic92/0a0faab4d1669cf1820dd082f620aa00.gif"
     }
   ]
 }
