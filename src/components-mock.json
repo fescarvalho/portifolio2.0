@@ -16,9 +16,16 @@
     },
     {
       "title": "API Wallet App",
-      "tecnologias": ["NodeJs", "Docker", "PostgresSQL"],
+      "tecnologias": ["NodeJs", "Docker", "PostgresSQL", "Express"],
       "linkGithub": "https://github.com/fescarvalho/WalletAppBackend",
       "linkLinkedin": "https://walletappbackend-production.up.railway.app/",
+      "background": "https://i.picasion.com/pic92/18afcd384492fcba8c0525a64e74ba4c.gif"
+    },
+    {
+      "title": "API Supermarket List",
+      "tecnologias": ["NodeJs", "Docker", "MongoDB", "Mongoose", "Express"],
+      "linkGithub": "https://github.com/fescarvalho/API-Supermarke-List",
+      "linkLinkedin": "api-supermarke-list-production.up.railway.app↗",
       "background": "https://i.picasion.com/pic92/18afcd384492fcba8c0525a64e74ba4c.gif"
     },
     {
