@@ -17,9 +17,16 @@
     {
       "title": "API Wallet App",
       "tecnologias": ["NodeJs", "Docker", "PostgresSQL", "Express"],
+      "linkGithub": "https://github.com/fescarvalho/wallet-app-frontend",
+      "linkLinkedin": "https://wallet-app-frontend.vercel.app/",
+      "background": "https://i.picasion.com/pic92/18afcd384492fcba8c0525a64e74ba4c.gif"
+    },
+    {
+      "title": "Wallet App - Front e Back",
+      "tecnologias": ["HTML", "JavaScript", "CSS"],
       "linkGithub": "https://github.com/fescarvalho/WalletAppBackend",
       "linkLinkedin": "https://walletappbackend-production.up.railway.app/",
-      "background": "https://i.picasion.com/pic92/18afcd384492fcba8c0525a64e74ba4c.gif"
+      "background": "https://i.picasion.com/pic92/ec23f1f24b00b4a1f5bf6847bce83dee.gif"
     },
     {
       "title": "API Supermarket List",
