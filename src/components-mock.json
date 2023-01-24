@@ -22,7 +22,7 @@
       "background": "https://i.picasion.com/pic92/18afcd384492fcba8c0525a64e74ba4c.gif"
     },
     {
-      "title": "Wallet App - Front e Back",
+      "title": "Wallet App - Final",
       "tecnologias": ["HTML", "JavaScript", "CSS"],
       "linkGithub": "https://github.com/fescarvalho/WalletAppBackend",
       "linkLinkedin": "https://walletappbackend-production.up.railway.app/",
@@ -34,6 +34,13 @@
       "linkGithub": "https://github.com/fescarvalho/API-Supermarke-List",
       "linkLinkedin": "hhtps://api-supermarke-list-production.up.railway.app",
       "background": "https://i.picasion.com/pic92/18afcd384492fcba8c0525a64e74ba4c.gif"
+    },
+    {
+      "title": "Supermarket List APP - Final",
+      "tecnologias": ["React", "CSS", "Axios"],
+      "linkGithub": "https://github.com/fescarvalho/APP-SupermarketList-Front",
+      "linkLinkedin": "https://app-supermarket-list-front.vercel.app/",
+      "background": "https://github.com/gabrielrangel95/supermarket-list-fronted/blob/master/public/images/demo.gif"
     },
     {
       "title": "Ranked",
